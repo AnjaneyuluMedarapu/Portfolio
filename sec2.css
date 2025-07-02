@@ -1,0 +1,155 @@
+.sec2{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.sec-2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-2-1>:nth-child(1){
+    font-weight: 500;
+}
+
+.sec-2-2{
+    margin-top: 100px ;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:60px
+}
+
+
+.sec-2-2-2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sec-2-2-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 300px;
+    padding: 15px;
+    border-radius: 15px;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    width: 370px;
+    
+}
+
+.box>:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+  
+}
+
+.box>:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+
+.box>:nth-child(3){
+    font-size: 17px;
+    color: rgb(217, 16, 16);
+}
+
+
+
+@media(max-width:1024px){
+    .sec2{
+        height: 100%;
+        padding-bottom: 100px;
+       
+    }
+    .sec-2-2{
+        margin-top: 50px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-2-2-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     .box{
+        width: 480px;
+        margin-bottom: 10px;
+    }
+    .box>:nth-child(1){
+        font-size: 24px;
+        font-weight: 500;
+  
+    }
+
+    .box>:nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+        color: #666;
+    }
+
+    .box>:nth-child(3){
+        font-size: 18px;
+        color: rgb(217, 16, 16);
+    }
+    
+}
+
+@media(max-width: 767px){
+    .sec2{
+        height: 100%;
+        padding-bottom: 0px;
+    }
+    .sec-2-2{
+        margin-top: 50px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 260px;
+    }
+    .box>:nth-child(1){
+        font-size: 15px;
+        font-weight: 500;
+  
+    }
+
+    .box>:nth-child(2){
+        font-size: 14px;
+        font-weight: 400;
+        color: #666;
+    }
+
+    .box>:nth-child(3){
+        font-size: 14px;
+        color: rgb(217, 16, 16);
+    }
+    
+    .sec-2-2-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-2-2-2-1{
+        display: flex;
+        flex-direction: column;
+    } 
+}
