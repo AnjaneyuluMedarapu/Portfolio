@@ -57,16 +57,18 @@
 }
 
 #githubBtn{
-    width: 60px;
+    width: 50px;
     font-weight: 500;
-    font-size: 12px;
-    height: 17px;
+    font-size: 11px;
+    height: 15px;
+    
+    text-align: center;
 }
 #livedemoBtn{
-    width: 62px;
+    width: 57px;
     font-weight: 500;
-    font-size: 12px;
-    height: 17px;
+    font-size: 11px;
+    height: 15px;
 }
 
 @media(max-width:1024px){
@@ -92,16 +94,16 @@
         font-weight: 500;
     }
      #githubBtn{
-        width: 103px;
-        font-weight: 500;
-        font-size: 19px;
-        height: 46px;
+        width: 49px;
+        font-weight: 400;
+        font-size: 15px;
+        height: 18px;
     }
     #livedemoBtn{
-        width: 140px;
-        font-weight: 500;
-        font-size: 19px;
-        height: 46px;
+        width: 78px;
+        font-weight: 400;
+        font-size: 15px;
+        height: 18px;
     }
 }
 
@@ -120,16 +122,16 @@
         font-weight: 500;
     }
     #githubBtn{
-        width: 80px;
-        font-weight: 500;
-        font-size: 13px;
-        height: 37px;
+        width: 35px;
+        font-weight: 400;
+        font-size: 11px;
+        height: 12px;
     }
     #livedemoBtn{
-        width: 107px;
-        font-weight: 500;
-        font-size: 13px;
-        height: 37px;
+        width: 57px;
+        font-weight: 400;
+        font-size: 11px;
+        height: 12px;
     }
 
 }
